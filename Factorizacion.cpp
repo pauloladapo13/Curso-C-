@@ -9,7 +9,7 @@ int main(){
     cout<<"Digite un numero: ";
     cin>>n;
 
-    for(int i=2; n>1; i++) {
+    for(int i=2; n>=1; i++) {
         while(n%i==0){
             cout<<i<<" ";
             n /= i;
