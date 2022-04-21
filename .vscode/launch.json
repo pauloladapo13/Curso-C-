@@ -1,10 +1,9 @@
 {
   "version": "0.2.0",
   "configurations": [
-    
     {
       "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
+      "type": "lldb",
       "request": "launch",
       "args": [],
       "stopAtEntry": true,
@@ -12,8 +11,8 @@
       "environment": [],
       "program": "/Users/pauloladapo/Desktop/Curso de C++/Curso-C-/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
-      "MIMode": "gdb",
-      "externalConsole": true
+      "MIMode": "lldb",
+      "externalConsole": false
     }
   ]
 }
