@@ -12,7 +12,7 @@
       "program": "/Users/pauloladapo/Desktop/Curso de C++/Curso-C-/build/Debug/outDebug",
       "internalConsoleOptions": "openOnSessionStart",
       "MIMode": "lldb",
-      "externalConsole": false
+      "console": "integratedTerminal"
     }
   ]
 }
