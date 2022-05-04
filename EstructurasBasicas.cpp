@@ -30,7 +30,7 @@ int main() {
 
     cout<<"\nImprimiendo datos \n";
     cout<<"Nombre: "<<persona1.nombre<<endl;
-    cout<<"Edad: "<<persona1.edad<<endl;
+    cout<<"Edad: "<<persona1.edad<<endl; 
 
     
     
