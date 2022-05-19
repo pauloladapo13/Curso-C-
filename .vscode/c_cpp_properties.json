@@ -6,8 +6,8 @@
                 "${workspaceFolder}/**",
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Kernel.framework/Versions/A/Headers"
             ],
-            "compilerPath": "/usr/bin/clang",
-            "cStandard": "${default}",
+            "compilerPath": "/opt/homebrew/bin/g++-11",
+            "cStandard": "c17",
             "cppStandard": "c++23",
             "intelliSenseMode": "${default}",
             "compilerArgs": []
