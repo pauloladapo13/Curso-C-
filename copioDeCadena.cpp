@@ -9,7 +9,7 @@ int main(){
     char nombre[] = "Alejandro";
     char nombre2[20];
 
-    strcpy(nombre2,nombre);
+    strcpy(nombre2,nombre, 20);
 
     cout<<nombre2<<endl;
 

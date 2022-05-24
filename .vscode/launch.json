@@ -7,12 +7,10 @@
       "request": "launch",
       "args": [],
       "stopAtEntry": true,
+      "externalConsole": false,
       "cwd": "/Users/pauloladapo/Desktop/Curso de C++/Curso-C-",
-      "environment": [],
       "program": "/Users/pauloladapo/Desktop/Curso de C++/Curso-C-/build/Debug/outDebug",
-      "internalConsoleOptions": "openOnSessionStart",
-      "MIMode": "lldb",
-      "console": "integratedTerminal"
+      "MIMode": "lldb"
     }
   ]
 }

@@ -1,17 +1,17 @@
 {
-    "configurations": [
-        {
-            "name": "macos-clang-arm64",
-            "includePath": [
-                "${workspaceFolder}/**",
-                "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Kernel.framework/Versions/A/Headers"
-            ],
-            "compilerPath": "/opt/homebrew/bin/g++-11",
-            "cStandard": "c17",
-            "cppStandard": "c++23",
-            "intelliSenseMode": "${default}",
-            "compilerArgs": []
-        }
-    ],
-    "version": 4
+  "configurations": [
+    {
+      "name": "macos-clang-arm64",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Kernel.framework/Versions/A/Headers"
+      ],
+      "compilerPath": "/usr/bin/clang++",
+      "cStandard": "c17",
+      "cppStandard": "c++23",
+      "intelliSenseMode": "macos-clang-arm64",
+      "compilerArgs": []
+    }
+  ],
+  "version": 4
 }
