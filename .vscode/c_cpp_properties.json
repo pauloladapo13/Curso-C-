@@ -1,15 +1,15 @@
 {
   "configurations": [
     {
-      "name": "macos-clang-arm64",
+      "name": "macos-clang-x64",
       "includePath": [
         "${workspaceFolder}/**",
         "/Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/System/Library/Frameworks/Kernel.framework/Versions/A/Headers"
       ],
       "compilerPath": "/usr/bin/clang++",
       "cStandard": "c17",
-      "cppStandard": "${default}",
-      "intelliSenseMode": "macos-clang-arm64",
+      "cppStandard": "c++20",
+      "intelliSenseMode": "macos-clang-x64",
       "compilerArgs": []
     }
   ],

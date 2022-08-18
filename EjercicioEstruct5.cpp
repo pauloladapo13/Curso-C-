@@ -22,11 +22,11 @@ int main(){
         cout<<"La persona tiene discapacidad(true/false): "; cin>>personas[i].discapacidad;
 
         if(personas[i].discapacidad == true){
-            strcpy(personasConD[j].nombre, personas[i].nombre);
+            strcpy(personasConD[j].nombre, personas[i].nombre,30);
             j++;
         }
         else{
-            strcpy(personasSinD[k].nombre, personas[i].nombre);
+            strcpy(personasSinD[k].nombre, personas[i].nombre,30);
         }
     }
 
