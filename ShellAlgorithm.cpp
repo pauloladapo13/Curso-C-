@@ -12,6 +12,8 @@ void intercambio(float &x, float &y){
 
 void ordenacionShell(float a[], int n){
     int salto, i, j, k;
+    // usaremos cuatro variable que determinaran el orden de salto del puntero
+    
     salto = n/2;
     
     while(salto>0){

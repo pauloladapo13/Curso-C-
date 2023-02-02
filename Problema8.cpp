@@ -7,10 +7,10 @@ using namespace std;
 int main(){
 
     float nota_a1, nota_a2, nota_a3, nota_a4, media= 0;
-    cout<<'Introduzca la nota final del primer alumno: '; cin>>nota_a1;
-    cout<<'Introduzca la nota final del segundo alumno: '; cin>>nota_a2;
-    cout<<'Introduzca la nota final del quinto alumno: '; cin>>nota_a3;
-    cout<<'Introduzca la nota final del cuarto alumno: '; cin>>nota_a4;
+    cout<<"Introduzca la nota final del primer alumno: "; cin>>nota_a1;
+    cout<<"Introduzca la nota final del segundo alumno: "; cin>>nota_a2;
+    cout<<"Introduzca la nota final del quinto alumno: "; cin>>nota_a3;
+    cout<<"Introduzca la nota final del cuarto alumno: "; cin>>nota_a4;
 
     media = (nota_a1 + nota_a2 + nota_a3 + nota_a4) / 4;
 

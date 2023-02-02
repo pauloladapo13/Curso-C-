@@ -11,6 +11,7 @@ int main(){
 
     const char *palabra1 = palabra.c_str();
     
+    
     cout<<palabra<<endl;
     
     
